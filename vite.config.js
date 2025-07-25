@@ -6,7 +6,8 @@ export default {
     outDir: '../dist'
   },
   server: {
-    port: 8080
+    port: 8080,
+    open: '/src/index.html',
   },
   // Optional: Silence Sass deprecation warnings. See note below.
   css: {
